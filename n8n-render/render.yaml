@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    repo: <laisser vide si tu deployeras depuis UI>
+    dockerfilePath: ./Dockerfile
